@@ -11,7 +11,12 @@ The iOS player uses the open source [HTY360Player by Hanton for iOS](https://git
 The Android player uses the open source [Google VR SDK for Android](https://github.com/googlevr/gvr-android-sdk)
 
 ## Installation
-Add video_player_360: ^0.1.4 in your pubspec.yaml dependencies.
+This plugin has not been deployed to pub.dev; you can only add it directly with the git url in your pubspec.yaml dependencies.
+``` dart
+video_player_360:
+    git:
+      url: https://github.com/stephangopaul/video_player_360_htyplayer.git
+```
 
 ## How to use #
 importing the library:
